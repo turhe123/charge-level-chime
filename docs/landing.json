@@ -1,0 +1,60 @@
+{
+  "seo_title": "Battery level chime for macOS",
+  "seo_description": "Free, open-source menu bar app that plays a chime and shows a banner when your Mac battery hits the low or full level you set. Native, no network access.",
+  "hero_title_line1": "Plug in on time.",
+  "hero_title_accent": "Unplug at the right level.",
+  "hero_sub": "ChargeLevelChime lives in your menu bar and plays a sound and posts a banner when your battery reaches the low or full level you chose. Defaults are 20% and 80%.",
+  "features_title": "Alerts that respect your battery.",
+  "features_sub": "Set your own limits, pick your own sounds, and stay quiet when you need to.",
+  "features": [
+    {
+      "icon": "battery",
+      "title": "Low and full thresholds",
+      "desc": "Set the low and high levels with sliders right in the menu bar dropdown, or with steppers in Settings. The two are always kept at least 5% apart."
+    },
+    {
+      "icon": "bell",
+      "title": "Chime plus a visible banner",
+      "desc": "Each alert plays a sound and posts a plug-in or unplug banner. An optional critical alert at 5% plays three times and is delivered as Time Sensitive."
+    },
+    {
+      "icon": "speaker",
+      "title": "Your choice of sounds",
+      "desc": "Pick a separate sound for low, charged and critical alerts from your system sounds, preview it, or choose your own audio file."
+    },
+    {
+      "icon": "clock",
+      "title": "Repeats, quiet hours, snooze",
+      "desc": "Repeat once or every 1 to 30 minutes until resolved. Quiet hours mute sounds but keep banners, and you can snooze for 30 minutes from the menu."
+    },
+    {
+      "icon": "eye",
+      "title": "Live status at a glance",
+      "desc": "The menu bar shows a battery state icon, an optional percentage and a colored dot. The dropdown adds power source and time remaining when macOS provides it."
+    },
+    {
+      "icon": "shield",
+      "title": "No startup blast, no network",
+      "desc": "Alerts are held for 90 seconds after launch and re-arm with 2% hysteresis, so you are not spammed. It uses only Apple frameworks and makes no network calls."
+    }
+  ],
+  "permissions_step": "Allow notifications when macOS asks on first launch, so battery banners can appear; sounds still play if you decline.",
+  "faq": [
+    {
+      "q": "Is ChargeLevelChime really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no ads, accounts or in-app purchases, and an optional Support button links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only notifications, requested on first launch so banners can be shown. Launch at login and file access for a custom sound are optional. It does not ask for Accessibility, Screen Recording, Microphone, Location or network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your settings are stored locally in the standard macOS preferences for the app. Nothing is sent anywhere, since the app has no network calls or analytics."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar dropdown shows the current charge, power source and the low/high alert sliders, with Snooze, Test Alert and Settings one click away.","alt":"ChargeLevelChime menu bar dropdown at 100% with low and high alert sliders"},
+  {"file":"02-settings.png","caption":"Settings lets you fine-tune thresholds, the critical alert, repeat interval, per-alert sounds, quiet hours and menu bar options.","alt":"ChargeLevelChime Settings window with thresholds, sounds, quiet hours and general options"},
+  {"file":"03-snoozed.png","caption":"Snoozing silences alerts for 30 minutes and the dropdown shows when the snooze ends, with a Cancel Snooze option.","alt":"ChargeLevelChime dropdown in snoozed state showing 'Snoozed until' time"}
+]

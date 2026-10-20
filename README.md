@@ -1,5 +1,7 @@
 # ChargeLevelChime
 
+**🌐 Website:** [turhe123.github.io/charge-level-chime](https://turhe123.github.io/charge-level-chime/)
+
 Get a chime and a banner when your battery hits the low or full level you chose, so you plug in or unplug on time.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -33,7 +35,17 @@ ChargeLevelChime is a free, open-source, 100% native, backend-free alternative t
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ChargeLevelChime menu bar dropdown at 100% with low and high alert sliders" width="720"></p>
+
+<p align="center"><em>The menu bar dropdown shows the current charge, power source and the low/high alert sliders, with Snooze, Test Alert and Settings one click away.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ChargeLevelChime Settings window with thresholds, sounds, quiet hours and general options" width="560"></p>
+
+<p align="center"><em>Settings lets you fine-tune thresholds, the critical alert, repeat interval, per-alert sounds, quiet hours and menu bar options.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-snoozed.png" alt="ChargeLevelChime dropdown in snoozed state showing &#x27;Snoozed until&#x27; time" width="560"></p>
+
+<p align="center"><em>Snoozing silences alerts for 30 minutes and the dropdown shows when the snooze ends, with a Cancel Snooze option.</em></p>
 
 ## Install
 
